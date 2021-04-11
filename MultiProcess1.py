@@ -28,7 +28,7 @@ if __name__ == '__main__':
 # Ejemplo con colas
 """
 
-"""
+
 import multiprocessing
 from datetime import datetime
 
@@ -51,7 +51,7 @@ if __name__ == "__main__":
         print(q.get())
 
 print(q.empty(), 'at', datetime.now(), 'First line')
-"""
+
 
 """
 # Ejemplo con tuberias
